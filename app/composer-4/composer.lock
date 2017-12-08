@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "686b88deb0944e89d4541b37a6b6ef95",
+    "content-hash": "54be984e74639a6104cb9e443846e4b9",
     "packages": [
         {
             "name": "cweagans/composer-patches",
@@ -99,16 +99,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.3.14",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "55497618e68845b6f92a66d13187138ac3d7750e"
+                "reference": "d6596cb5022b6a0bd940eae54a1de78646a5fda6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/55497618e68845b6f92a66d13187138ac3d7750e",
-                "reference": "55497618e68845b6f92a66d13187138ac3d7750e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d6596cb5022b6a0bd940eae54a1de78646a5fda6",
+                "reference": "d6596cb5022b6a0bd940eae54a1de78646a5fda6",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-29T12:25:49+00:00"
+            "time": "2017-08-27T14:52:21+00:00"
         },
         {
             "name": "symfony/debug",
