@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "require": {
-        "symfony/console": "~3.4",
+        "symfony/console": "~3.3",
         "cweagans/composer-patches": "~1.0"
     },
     "minimum-stability": "dev",
