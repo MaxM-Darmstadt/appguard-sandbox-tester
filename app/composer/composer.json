@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "require": {
-        "symfony/console": "~3.2",
+        "symfony/console": "~3.2|<3.5.0",
         "symfony/yaml": "~3.3",
 	"symfony/finder": "^3.0",
         "symfony/process": "3.3.*"
