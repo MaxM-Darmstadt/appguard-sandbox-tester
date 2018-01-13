@@ -1,0 +1,61 @@
+{
+    "name": "Test Project - NPM",
+    "main_branch": "test\/994aab4c6ac501be3e788797a5753f7c",
+    "manager": "npm",
+    "integrations": {
+        "project_management_system": {
+            "credential": "jira_default",
+            "project": "TES",
+            "tracker": "Aufgabe",
+            "priority": "Low",
+            "task_status_to_ag_mapping": {
+                "In Progress": "execute_update",
+                "Done": "closed"
+            },
+            "task_status_from_ag_mapping": []
+        }
+    },
+    "update_behaviors": {
+        "app-guard-updates": {
+            "auto_start_updates": "always",
+            "types": [
+                "update_patch_version",
+                "update_minor_version",
+                "update_major_version"
+            ]
+        }
+    },
+    "events": {
+        "new_updates_available": [
+            {
+                "sendmail": {
+                    "emails": "test@mail-npm.com,test2@mail-npm.com",
+                    "subject": "Test subject - NPM Project",
+                    "message": "Test message - NPM Project",
+                    "cc": "",
+                    "bcc": ""
+                }
+            },
+            {
+                "sendmail": {
+                    "emails": "test3@mail-npm.com,test4@mail-npm.com",
+                    "subject": "Test subject 2 - NPM Project",
+                    "message": "Test message 2 - NPM Project",
+                    "cc": "",
+                    "bcc": ""
+                }
+            }
+        ],
+        "failed": [
+            {
+                "sendmail": {
+                    "emails": "test@mail-npm.com,test2@mail-npm.com",
+                    "subject": "Test subject - NPM Project",
+                    "message": "Test message - NPM Project",
+                    "cc": "",
+                    "bcc": ""
+                }
+            }
+        ]
+    }
+}
