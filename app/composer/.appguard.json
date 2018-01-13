@@ -1,8 +1,3 @@
-{
-    "name": "Unicorn Project 1",
-    "main_branch": "test\/c3db4433eb585478e99930b352159612",
-    "manager": "composer",
-    "integrations": [],
-    "update_behaviors": [],
-    "events": []
-}
+[
+    "BAD_CONFIGS_FILE"
+]
