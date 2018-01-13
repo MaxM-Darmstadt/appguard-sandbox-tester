@@ -1,8 +1,0 @@
-{
-    "name": "Unicorn Project 1 (UPD)",
-    "main_branch": "master",
-    "manager": "composer",
-    "integrations": [],
-    "update_behaviors": [],
-    "events": []
-}
