@@ -1,6 +1,6 @@
 {
     "name": "Unicorn Project 1 (UPD)",
-    "main_branch": "master",
+    "main_branch": "test\/79010d273aaafe1856d20879fab2902d",
     "manager": "composer",
     "integrations": [],
     "update_behaviors": [],
